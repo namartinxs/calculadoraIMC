@@ -3,6 +3,7 @@ function mensagem (tag,texto){
     msg.innerHTML = texto
 }
 
+
 mensagem('h1','Calcule seu imc');
 
 
@@ -13,8 +14,7 @@ function calculo(){
     let alturaCalculo = altura*altura
     let imc = peso / alturaCalculo 
     mensagem('h1', 'Seu IMC é ' + imc.toFixed(2))
-    limparCampo()
-    mensagem('button','Novo IMC')
+
 }
 
 function limparCampo(){
@@ -22,4 +22,10 @@ function limparCampo(){
     peso.value = '';
     altura = document.getElementById('inputAltura')
     altura.value = '';
+}
+
+function novoImc(){
+    limparCampo()
+    mensagem('h1','Calcule seu imc');
+    
 }
