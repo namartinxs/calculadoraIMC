@@ -2,7 +2,7 @@
 
 <p>Calculadora de índice de massa corporal realizada durante treinamento do Geração Caldeira 2024 afim de por em práticas as atividades propostas no curso de lógica de programação.</p>
 
-##Funcionalidas 
+ ## Funcionalidades
 - Calcula o índice de massa corporal com base nos dados fornecidos pelo usuário
 
  ## Demonstração
